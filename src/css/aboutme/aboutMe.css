@@ -1,0 +1,18 @@
+.aboutme-container{
+    padding: 0 3rem;
+}
+
+.aboutme-container h1, h2 {
+    color: var(--DarkGrey);
+    font-weight: 700;
+    text-align: center;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-header{
+    font-size: 170%;
+}

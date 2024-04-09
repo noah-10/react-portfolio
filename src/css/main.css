@@ -1,5 +1,5 @@
 :root {
-    --DarkGrey: #595758;
+    --DarkGrey: #3e3d3e;
     --Silver: #B3B6B7;
     --Cream: #f7f3e3;
     --Blue: #004fff;
@@ -8,4 +8,5 @@
 
 * {
     background-color: var(--Cream);
+    font-family: serif;
 }

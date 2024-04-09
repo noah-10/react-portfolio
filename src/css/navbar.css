@@ -1,22 +1,22 @@
-.navbar{
+.Navbar{
     margin: auto 5rem auto auto;
     width: 45%;
 }
 
-.navbar-nav{
+.Navbar-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.nav-item{
+.Nav-item{
     list-style-type: none;
     font-size: 125%;
 }
 
-.nav-link{
+.Nav-link{
     color: var(--OrangeCream);
-    font-weight: 600;
+    font-weight: 400;
     display: flex;
     text-decoration: none;
 }

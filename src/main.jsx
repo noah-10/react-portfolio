@@ -8,8 +8,9 @@ import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/main.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const router = createBrowserRouter([
     {
