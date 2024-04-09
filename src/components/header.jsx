@@ -1,4 +1,5 @@
 import Navbar from "./navbar"
+import '../css/header.css'
 
 export default function Header() {
     return (

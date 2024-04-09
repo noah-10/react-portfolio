@@ -9,6 +9,7 @@ import Resume from './pages/Resume.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap';
+import './css/main.css'
 
 const router = createBrowserRouter([
     {

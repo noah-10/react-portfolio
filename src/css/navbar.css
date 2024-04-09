@@ -1,0 +1,22 @@
+.navbar{
+    margin: auto 5rem auto auto;
+    width: 45%;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-item{
+    list-style-type: none;
+    font-size: 125%;
+}
+
+.nav-link{
+    color: var(--OrangeCream);
+    font-weight: 600;
+    display: flex;
+    text-decoration: none;
+}

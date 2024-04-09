@@ -1,0 +1,11 @@
+:root {
+    --DarkGrey: #595758;
+    --Silver: #B3B6B7;
+    --Cream: #f7f3e3;
+    --Blue: #004fff;
+    --OrangeCream: #fea520;
+}
+
+* {
+    background-color: var(--Cream);
+}
