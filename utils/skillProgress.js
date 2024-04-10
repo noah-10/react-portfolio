@@ -6,7 +6,7 @@ const skillProgress = () => {
             id: 1,
             logo: faReact,
             name: "React",
-            progress: "45%"
+            progress: "55%"
         },
         {
             id: 2,

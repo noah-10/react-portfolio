@@ -1,0 +1,23 @@
+div.progress-container {
+    flex-direction: column;
+    height: 48px;
+    margin-bottom: 1rem;
+}
+
+.skill{
+    /* margin-bottom: 2rem; */
+}
+
+.skill p{
+    font-size: 150%;
+    margin-bottom: 0
+}
+
+.icon{
+    padding-right: 8px;
+}
+
+div.progress-bar{
+    height: 100%;
+}
+
