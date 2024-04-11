@@ -1,0 +1,27 @@
+
+.contact-form{
+    padding: 0 8em;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.active-msg{
+    display: inline-block;
+    color: red;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.unactive-msg{
+    display: none;
+}
+
+button.btn{
+    background-color: var(--OrangeCream);
+    width: 25%;
+    font-size: 1.1em;
+    color: var(--DarkGrey);
+}

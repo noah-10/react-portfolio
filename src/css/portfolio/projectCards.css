@@ -21,7 +21,7 @@ div.project-card{
    
 }
 
-.card-header p, .github-link, .icon, .tech, .tech p{
+.card-header p, .github-link, .github-icon, .tech, .tech p{
     background-color: transparent;
     color: white;
 }

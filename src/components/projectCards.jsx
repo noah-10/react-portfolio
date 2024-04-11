@@ -12,7 +12,7 @@ export default function ProjectCards(props) {
                             {project.projectName} 
                         </p>
                         <a href={`${project.githubLink}`} className='github-link'>
-                            <FontAwesomeIcon className='icon' icon={faGithub}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='icon github-icon' icon={faGithub}></FontAwesomeIcon>
                         </a>
                     </div> 
                     <div className="tech">
