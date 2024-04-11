@@ -1,0 +1,48 @@
+
+div.project-card{
+    height: 350px;
+    width: calc(50% - 150px);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin: 0 75px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-header{
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 25px;
+   font-size: 1.8em;
+   font-weight: 700;
+   color: white;
+   
+}
+
+.card-header p, .github-link, .icon, .tech, .tech p{
+    background-color: transparent;
+    color: white;
+}
+
+a.github-link{
+    display: inline-block;
+    z-index: 1;
+}
+
+.tech{
+    position: absolute;
+    font-weight: 600;
+    top: 65px;
+    left: 35px;
+}
+
+a.project-link{
+    position: absolute; 
+    top: 0; 
+    height: 100%; 
+    width: 100%; 
+    display: block; 
+    background-color: transparent;
+}
