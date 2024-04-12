@@ -1,7 +1,31 @@
+.skill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    margin: 0 auto;
+    padding: 0 4em;
+    width: 100%;
+}
+
+.front-end, .back-end{
+    width: 40em;
+}
+
+.skill-header{
+    font-size: 135%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skill-header, .skill p {
+    color: var(--DarkGrey);
+}
+
 div.progress-container {
     flex-direction: column;
     height: 48px;
-    margin-bottom: 1rem;
+    margin-bottom: 2em;
 }
 
 .skill p{

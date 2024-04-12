@@ -4,8 +4,9 @@ import '../../css/resume/progressBar.css';
 export default function ProgressBar(props){
     
     return (
-        <div className="skill-container">
+        <div className="skill-container mt-4">
             <div className="front-end">
+                <p className="skill-header">Front End</p>
                 {props.skills.map((skill) => (
                     skill.devType === 'FrontEnd' && (
                         <div key={skill.id}>
@@ -22,6 +23,7 @@ export default function ProgressBar(props){
                 ))}    
             </div>
             <div className="back-end">
+                <p className="skill-header">Back End</p>
                 {props.skills.map((skill) => (
                     skill.devType === 'BackEnd' && (
                         <div key={skill.id}>
