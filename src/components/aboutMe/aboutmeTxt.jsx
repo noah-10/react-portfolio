@@ -1,4 +1,4 @@
-import '../css/aboutme/aboutMeTxt.css';
+import '../../css/aboutme/aboutMeTxt.css';
 
 export default function AboutMeTxt() {
     return (

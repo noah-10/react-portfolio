@@ -1,4 +1,4 @@
-import ProjectContainer from "../components/projectContainer"
+import ProjectContainer from "../components/portfolio/projectContainer"
 
 export default function Portfolio(){
     return(

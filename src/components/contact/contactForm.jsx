@@ -1,9 +1,10 @@
-import '../css/contact/contactForm.css';
+import '../../css/contact/contactForm.css';
 import { useEffect, useState } from 'react';
 
 export default function ContactForm() {
 
     const [userEmail, setUserEmail] = useState(null);
+    const [userMessage, setUserMessage] = useState(null);
 
     const emailChange = (e) => {
         const email = e.currentTarget.value;
@@ -40,11 +41,11 @@ export default function ContactForm() {
                 </div> 
                 <div className="error-msg unactive-msg">
                     <p className="msg">
-                        Please check email!
+                        Your email is invalid.
                     </p>
                 </div>
                 <div className="btn-container">
-                    <button type='submit' className="btn">Submit</button>
+                    <button type='submit' className="btn contact-btn">Submit</button>
                 </div> 
             </form>
         </div>

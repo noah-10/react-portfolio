@@ -19,7 +19,7 @@
     display: none;
 }
 
-button.btn{
+button.contact-btn{
     background-color: var(--OrangeCream);
     width: 25%;
     font-size: 1.1em;

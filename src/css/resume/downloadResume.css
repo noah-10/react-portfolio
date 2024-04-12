@@ -1,0 +1,12 @@
+.download-container{
+    margin-left: 5em;
+}
+
+.download-container p{
+    font-size: 125%;
+}
+
+button.resume-btn {
+    background-color: var(--OrangeCream);
+    color: var(--DarkGrey);
+}

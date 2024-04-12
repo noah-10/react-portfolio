@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import skillProgress from "../../utils/skillProgress"
+import skillProgress from "../../../utils/skillProgress"
 import ProgressBar from "./progressBar";
 
 export default function Skills(){
@@ -16,8 +16,8 @@ export default function Skills(){
     }, []);
 
     return (
-        <div className="skills-container">
+        <>
             <ProgressBar skills={mySkills} />
-        </div>
+        </>
     )
 }

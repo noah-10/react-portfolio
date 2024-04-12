@@ -1,4 +1,4 @@
-import '../css/aboutme/profileImg.css';
+import '../../css/aboutme/profileImg.css';
 
 export default function ProfileImg(){
     return (

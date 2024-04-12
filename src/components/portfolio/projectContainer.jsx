@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
-import allProjects from "../../utils/projects";
+import allProjects from "../../../utils/projects";
 import ProjectCards from "./projectCards";
-import '../css/portfolio/projectContainer.css';
+import '../../css/portfolio/projectContainer.css';
 
 export default function ProjectContainer(){
     const [myProjects, setMyProjects] = useState([]);

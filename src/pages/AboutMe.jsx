@@ -1,6 +1,5 @@
-import ProfileImg from "../components/profileImg";
-import AboutMeTxt from "../components/aboutmeTxt";
-import Skills from "../components/skills";
+import ProfileImg from "../components/aboutMe/profileImg";
+import AboutMeTxt from "../components/aboutMe/aboutmeTxt";
 import '../css/aboutme/aboutMe.css';
 
 export default function AboutMe(){
@@ -11,8 +10,6 @@ export default function AboutMe(){
                 <ProfileImg />
                 <AboutMeTxt />
             </div>
-            <h2 className="skills-header mt-5"> Skills </h2>
-            <Skills />
         </div>
 
     )
