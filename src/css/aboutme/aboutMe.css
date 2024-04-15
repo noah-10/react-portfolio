@@ -9,6 +9,19 @@
 }
 
 .bio{
+    margin-top: 2em;
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 769px){
+    .bio{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .aboutme-container{
+        padding: 0 1em;
+    }
 }

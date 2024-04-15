@@ -1,5 +1,33 @@
+.image-container{
+    margin: auto 0;
+}
 
 .image-container img {
     height: 300px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 769px){
+    .image-container{
+        padding: 0 2em;
+        margin-bottom: 2em;
+    }
+    .image-container img{
+        height: 215px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .image-container{
+        padding: 0;
+    }
+    .image-container img{
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .image-container img{
+        height: 150px;
+    }
 }
