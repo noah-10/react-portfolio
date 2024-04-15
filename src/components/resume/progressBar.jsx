@@ -16,7 +16,7 @@ export default function ProgressBar(props){
                                         <FontAwesomeIcon className='icon' icon={skill.logo}></FontAwesomeIcon>{skill.name}
                                     </p>
                                 </div>
-                                <div className="progress-bar" style={{ width: `${skill.progress}` }}></div>
+                                <div className="progress-bar bar" style={{ width: `${skill.progress}` }}></div>
                             </div>
                         </div>
                     )
@@ -33,7 +33,7 @@ export default function ProgressBar(props){
                                         <FontAwesomeIcon className='icon' icon={skill.logo}></FontAwesomeIcon>{skill.name}
                                     </p>
                                 </div>
-                                <div className="progress-bar" style={{ width: `${skill.progress}` }}></div>
+                                <div className="progress-bar bar" style={{ width: `${skill.progress}` }}></div>
                             </div>
                         </div>
                     )

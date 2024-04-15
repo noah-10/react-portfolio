@@ -9,6 +9,7 @@ import Resume from './pages/Resume.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './css/main.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

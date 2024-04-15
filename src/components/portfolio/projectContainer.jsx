@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import allProjects from "../../../utils/projects";
 import ProjectCards from "./projectCards";
-import '../../css/portfolio/projectContainer.css';
 
 export default function ProjectContainer(){
     const [myProjects, setMyProjects] = useState([]);
@@ -16,8 +15,8 @@ export default function ProjectContainer(){
     }, []);
 
     return (
-        <div className="project-container">
+        <>
             <ProjectCards projects={myProjects} />
-        </div>
+        </>
     )
 }

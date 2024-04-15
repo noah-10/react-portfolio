@@ -4,9 +4,16 @@
 
 .download-container p{
     font-size: 125%;
+    color: var(--DarkGrey);
 }
 
 button.resume-btn {
     background-color: var(--OrangeCream);
     color: var(--DarkGrey);
+    transition: 0.3s ease;
+}
+
+button.resume-btn:hover{
+    background-color: var(--Blue);
+    color: var(--Cream);
 }

@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0;
 }
 
 .Nav-item{
@@ -19,4 +20,13 @@
     font-weight: 400;
     display: flex;
     text-decoration: none;
+}
+
+nav.navbar{
+    padding: 0;
+    margin-right: 3em;
+}
+
+div.container-fluid{
+    padding: 0;
 }

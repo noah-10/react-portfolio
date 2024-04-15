@@ -28,6 +28,11 @@ div.progress-container {
     margin-bottom: 2em;
 }
 
+div.bar{
+    background-color: var(--OrangeCream);
+
+}
+
 .skill p{
     font-size: 150%;
     margin-bottom: 0
@@ -41,3 +46,24 @@ div.progress-bar{
     height: 100%;
 }
 
+@media screen and (max-width: 769px){
+    .download-container{
+        margin-top: 1em;
+    }
+    .skill-container{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .front-end, .back-end{
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .download-container{
+        margin-left: 2em;
+    }
+    .skill-container{
+        padding: 0 2em;
+    }
+}
