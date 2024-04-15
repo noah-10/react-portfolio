@@ -20,7 +20,7 @@ export default function Navbar() {
     return (
         <>
             
-            {windowWidth > 1000 ? (
+            {windowWidth > 720 ? (
                 <nav className="Navbar">
                     <ul className="Navbar-nav">
                         <li className="Nav-item">

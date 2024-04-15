@@ -30,3 +30,19 @@ nav.navbar{
 div.container-fluid{
     padding: 0;
 }
+
+@media screen and (max-width: 769px){
+    .Navbar{
+        margin-right: 2em;
+    }
+
+    .Navbar-nav{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 426px){
+    nav.navbar{
+        margin-right: 2em;
+    }
+}
