@@ -72,4 +72,33 @@ a.project-link{
     .card-header{
         font-size: 1.4em;
     }
+
+    .tech{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .project-container{
+        flex-direction: column;
+        padding: 0 2em;
+    }
+
+    div.project-card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 321px){
+    div.project-card{
+        height: 12em;
+    }
+
+    .card-header{
+        font-size: 1.3em;
+    }
+
+    .tech{
+        font-size: 0.7em;
+    }
 }
