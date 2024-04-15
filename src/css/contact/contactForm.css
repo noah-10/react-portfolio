@@ -24,4 +24,23 @@ button.contact-btn{
     width: 25%;
     font-size: 1.1em;
     color: var(--DarkGrey);
+    transition: 0.5s ease;
+}
+
+button.contact-btn:hover{
+    background-color: var(--Blue);
+    color: var(--Cream);
+}
+
+@media screen and (max-width: 426px){
+    .contact-form{
+        padding: 0 2em;
+    }
+}
+
+@media screen and (max-width: 321px){
+    button.contact-btn{
+        width: 30%;
+        text-align: center;
+    }
 }
