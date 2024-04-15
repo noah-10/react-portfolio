@@ -43,6 +43,6 @@ div.container-fluid{
 
 @media screen and (max-width: 426px){
     nav.navbar{
-        margin-right: 2em;
+        margin-right: 1em;
     }
 }

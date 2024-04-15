@@ -17,3 +17,15 @@ button.resume-btn:hover{
     background-color: var(--Blue);
     color: var(--Cream);
 }
+
+@media screen and (max-width: 769px){
+    .download-container{
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .download-container{
+        margin-left: 1em;
+    }
+}

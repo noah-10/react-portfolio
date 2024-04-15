@@ -61,9 +61,9 @@ div.progress-bar{
 
 @media screen and (max-width: 426px){
     .download-container{
-        margin-left: 2em;
+        margin-left: 1em;
     }
     .skill-container{
-        padding: 0 2em;
+        padding: 0 1em;
     }
 }
