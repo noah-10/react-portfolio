@@ -37,3 +37,9 @@ a.link > svg:hover{
     transform: scale(1.2);
     color: var(--OrangeCream);
 }
+
+@media screen and (max-width: 376px){
+    a.link > svg{
+        height: 3em;
+    }
+}
