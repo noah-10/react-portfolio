@@ -4,6 +4,7 @@ import '../css/navbar.css';
 
 export default function Navbar() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [currentPage, setCurrentPage] = useState('About Me');
 
     useEffect(() => {
         const handleResize = () => {
@@ -17,6 +18,8 @@ export default function Navbar() {
         };
     }, []);
 
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
         <>
             
@@ -24,22 +27,38 @@ export default function Navbar() {
                 <nav className="Navbar">
                     <ul className="Navbar-nav">
                         <li className="Nav-item">
-                            <Link className="Nav-link" to='/'>
+                            <Link 
+                                className={currentPage === 'About Me' ? "Nav-link Nav-link-active" : 'Nav-link'} 
+                                to='/'
+                                onClick={() => handlePageChange('About Me')}
+                            >
                                 About Me
                             </Link>
                         </li>
                         <li className="Nav-item">
-                            <Link className="Nav-link" to='/portfolio'>
+                            <Link 
+                                className={currentPage === 'Portfolio' ? "Nav-link Nav-link-active" : 'Nav-link'} 
+                                to='/portfolio'
+                                onClick={() => handlePageChange('Portfolio')}
+                            >
                                 Portfolio
                             </Link>
                         </li>
                         <li className="Nav-item">
-                            <Link className="Nav-link" to='/contact'>
+                            <Link 
+                                className={currentPage === 'Contact' ? "Nav-link Nav-link-active" : 'Nav-link'} 
+                                to='/contact'
+                                onClick={() => handlePageChange('Contact')}
+                            >
                                 Contact
                             </Link>
                         </li>
                         <li className="Nav-item">
-                            <Link className="Nav-link" to='/resume'>
+                            <Link 
+                                className={currentPage === 'Resume' ? "Nav-link Nav-link-active" : 'Nav-link'} 
+                                to='/resume'
+                                onClick={() => handlePageChange('Resume')}
+                            >
                                 Resume
                             </Link>
                         </li>
