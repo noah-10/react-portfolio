@@ -31,7 +31,13 @@ export default function ContactForm() {
 
     const checkEmail = () => {
         const regex = /^([a-zA-Z0-9_\.-]+)@([\da-z\.]+)\.([\w-]{2,6})$/;
-        if(userEmail.match(regex)){
+        if(userEmail === null || userEmail === ''){
+            const msg = document.querySelector('.error-msg');
+            msg.classList.remove('unactive-msg');
+            msg.classList.add('active-msg');
+            msg.textContent = 'Email is required'
+        }
+        else if(userEmail.match(regex)){
             const msg = document.querySelector('.error-msg');
             msg.classList.remove('active-msg');
             msg.classList.add('unactive-msg');

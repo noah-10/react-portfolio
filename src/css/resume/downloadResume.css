@@ -8,13 +8,13 @@
 }
 
 button.resume-btn {
-    background-color: var(--OrangeCream);
-    color: var(--DarkGrey);
+    background-color: var(--DarkGrey);
+    color: var(--Cream);
     transition: 0.5s ease;
 }
 
 button.resume-btn:hover{
-    background-color: var(--Blue);
+    background-color: var(--OrangeCream);
     color: var(--Cream);
 }
 

@@ -23,12 +23,12 @@ button.contact-btn{
     background-color: var(--OrangeCream);
     width: 25%;
     font-size: 1.1em;
-    color: var(--DarkGrey);
+    color: var(--Cream);
     transition: 0.5s ease;
 }
 
 button.contact-btn:hover{
-    background-color: var(--Blue);
+    background-color: var(--DarkGrey);
     color: var(--Cream);
 }
 
