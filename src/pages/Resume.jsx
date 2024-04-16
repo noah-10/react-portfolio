@@ -1,6 +1,5 @@
 import DownloadResume from "../components/resume/downloadResume"
 import Skills from "../components/resume/skills"
-import '../css/resume/resume.css';
 
 export default function Resume(){
     return (

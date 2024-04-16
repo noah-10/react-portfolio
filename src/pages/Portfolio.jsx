@@ -1,5 +1,4 @@
 import ProjectContainer from "../components/portfolio/projectContainer"
-import '../css/portfolio/portfolio.css';
 
 export default function Portfolio(){
     return(

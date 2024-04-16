@@ -20,6 +20,23 @@
     font-weight: 400;
     display: flex;
     text-decoration: none;
+    position: relative;
+}
+
+.Nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--DarkGrey);
+    transition: width 0.3s ease;
+}
+
+.Nav-link:hover::before{
+    width: 100%;
+    background-color: var(--DarkGrey); 
 }
 
 nav.navbar{
