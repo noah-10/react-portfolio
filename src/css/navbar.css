@@ -39,6 +39,7 @@
     background-color: var(--DarkGrey); 
 }
 
+/* For offcanvas navbar */
 nav.navbar{
     padding: 0;
     margin-right: 3em;
@@ -46,6 +47,10 @@ nav.navbar{
 
 div.container-fluid{
     padding: 0;
+}
+
+a.nav-link.active{
+    color: var(--OrangeCream) !important;
 }
 
 @media screen and (max-width: 800px){
