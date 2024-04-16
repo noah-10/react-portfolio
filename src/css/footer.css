@@ -1,0 +1,39 @@
+.footer-container{
+    background-color: var(--DarkGrey);
+    height: 8em;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+ul.links{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+li.link-item{
+    background-color: transparent;
+    list-style-type: none;
+}
+
+.link{
+    background-color: transparent;
+}
+
+a.link > svg{
+    height: 3.5em;
+    background-color: transparent;
+    color: var(--Cream);
+    transition: 0.5s ease;
+}
+
+a.link > svg:hover{
+    transform: scale(1.2);
+    color: var(--OrangeCream);
+}

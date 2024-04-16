@@ -10,3 +10,9 @@
     background-color: var(--Cream);
     font-family: serif;
 }
+
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
