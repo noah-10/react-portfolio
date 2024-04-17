@@ -22,4 +22,4 @@ This is a revamp of my previous portfolio using react as my front end template. 
 
 ## Usage
 
-- You are able to view the live application with this [link](https://661ebfca7b10265d3b002619--noah-fryman.netlify.app/)
+- You are able to view the live application with this [link](https://661f42d533685000081bbe63--noah-fryman.netlify.app/)
