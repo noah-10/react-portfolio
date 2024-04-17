@@ -2,6 +2,7 @@ import ProfileImg from "../components/aboutMe/profileImg";
 import AboutMeTxt from "../components/aboutMe/aboutmeTxt";
 import '../css/aboutme/aboutMe.css';
 
+// Page layout for about me
 export default function AboutMe(){
     return (
         <div className="aboutme-container mb-5">

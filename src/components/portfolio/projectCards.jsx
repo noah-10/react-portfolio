@@ -5,10 +5,13 @@ import { useState, useEffect } from 'react';
 
 export default function ProjectCards(props) {
 
+    // state for what project is being hovered
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
+    // State for the window width
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+    // sets state for the window width
     useEffect(() => {
         const handleResize = () => {
             setWindowWidth(window.innerWidth);
@@ -21,12 +24,14 @@ export default function ProjectCards(props) {
         };
     });
 
+    // if width is Mobile L or smaller it calls the function
     useEffect(() => {
         if(windowWidth < 426){
             addDisplay();
         }
     });
 
+    // Removes the hover effect and just displays the text without hover
     const addDisplay = () => {
         const cardText = document.querySelectorAll('.card-header');
         cardText.forEach((card) => {

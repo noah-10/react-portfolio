@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const router = createBrowserRouter([
     {
+        //Defining router
         path: '/',
         element: <App />,
         children: [

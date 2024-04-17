@@ -40,7 +40,7 @@
 }
 
 .Nav-link-active{
-    color: var(--DarkGrey);
+    color: var(--DarkGrey) !important;
     transform: scale(1.1);
 }
 
@@ -55,7 +55,7 @@ div.container-fluid{
 }
 
 a.nav-link.active{
-    color: var(--OrangeCream) !important;
+    /* color: var(--OrangeCream) !important; */
 }
 
 @media screen and (max-width: 800px){

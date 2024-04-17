@@ -3,19 +3,26 @@ import { useEffect, useState } from 'react';
 
 export default function ContactForm() {
 
+    // For email input
     const [userEmail, setUserEmail] = useState(null);
+
+    // For message input
     const [userMessage, setUserMessage] = useState(null);
 
+    // On change the userEmail is updated
     const emailChange = (e) => {
         const email = e.currentTarget.value;
         setUserEmail(email);
     };
 
+    // On change the userMessage is updated
     const messageChange = (e) => {
         const message = e.currentTarget.value;
         setUserMessage(message);
     };
 
+    // checks message input
+    // if null or empty it throws an error
     const checkMessage = () => {
         if(userMessage === null || userMessage === ''){
             const msg = document.querySelector('.error-msg');
@@ -29,18 +36,24 @@ export default function ContactForm() {
         }
     }
 
+    // checks email
     const checkEmail = () => {
         const regex = /^([a-zA-Z0-9_\.-]+)@([\da-z\.]+)\.([\w-]{2,6})$/;
+        // Checks email for null or empty if not throw error
         if(userEmail === null || userEmail === ''){
             const msg = document.querySelector('.error-msg');
             msg.classList.remove('unactive-msg');
             msg.classList.add('active-msg');
             msg.textContent = 'Email is required'
         }
+
+        // Checks to make sure it matches the regex
         else if(userEmail.match(regex)){
             const msg = document.querySelector('.error-msg');
             msg.classList.remove('active-msg');
             msg.classList.add('unactive-msg');
+
+        // throw an error message 
         }else{
             const msg = document.querySelector('.error-msg');
             msg.classList.remove('unactive-msg');

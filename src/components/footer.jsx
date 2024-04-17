@@ -2,6 +2,7 @@ import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../css/footer.css';
 
+// Component containing footer
 export default function Footer(){
     return(
         <div className="footer-container">

@@ -3,14 +3,19 @@ import { useState, useEffect } from "react";
 import '../css/navbar.css';
 
 export default function Navbar() {
+    // state for screen width
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    //State for what page it is
     const [currentPage, setCurrentPage] = useState('About Me');
 
     useEffect(() => {
         const handleResize = () => {
+            //Sets the windowWidth to what the screen width is
             setWindowWidth(window.innerWidth);
         };
 
+        // Event listener for resize of screen
         window.addEventListener('resize', handleResize);
 
         return () => {
@@ -18,11 +23,12 @@ export default function Navbar() {
         };
     }, []);
 
+    // Sets the current page to what page was clicked
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <>
-            
+            {/* Different navbar is displayed based on screen size */}
             {windowWidth > 720 ? (
                 <nav className="Navbar">
                     <ul className="Navbar-nav">
@@ -78,16 +84,43 @@ export default function Navbar() {
                                 <div className="offcanvas-body">
                                     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                                         <li className="nav-item">
-                                            <Link className="nav-link active" aria-current="page" to='/'>About Me</Link>
+                                            <Link 
+                                                className={currentPage === 'About Me' ? "nav-link active .Nav-link-active" : "nav-link active"} 
+                                                aria-current="page" 
+                                                to='/'
+                                                onClick={() => handlePageChange('About Me')}
+                                            >   About Me
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link active" aria-current="page" to='/portfolio'>Portfolio</Link>
+                                            <Link 
+                                                className={currentPage === 'Portfolio' ? "nav-link active .Nav-link-active" : "nav-link active"} 
+                                                aria-current="page" 
+                                                to='/portfolio'
+                                                onClick={() => handlePageChange('Portfolio')}
+                                            >
+                                                Portfolio
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link active" aria-current="page" to='/contact'>Contact</Link>
+                                            <Link 
+                                                className={currentPage === 'Contact' ? "nav-link active .Nav-link-active" : "nav-link active"} 
+                                                aria-current="page" 
+                                                to='/contact'
+                                                onClick={() => handlePageChange('Contact')}
+                                            >
+                                                Contact
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link className="nav-link active" aria-current="page" to='/resume'>Resume</Link>
+                                            <Link 
+                                                className={currentPage === 'Resume' ? "nav-link active .Nav-link-active" : "nav-link active"} 
+                                                aria-current="page" 
+                                                to='/resume'
+                                                onClick={() => handlePageChange('Resume')}
+                                            >
+                                                Resume
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>

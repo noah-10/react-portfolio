@@ -1,6 +1,7 @@
 import Navbar from "./navbar"
 import '../css/header.css'
 
+// component for containing the header
 export default function Header() {
     return (
         <div className="header-container">

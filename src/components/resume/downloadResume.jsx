@@ -1,5 +1,6 @@
 import '../../css/resume/downloadResume.css';
 
+// Component for downloading my resume
 export default function DownloadResume() {
     return(
         <div className="download-container">

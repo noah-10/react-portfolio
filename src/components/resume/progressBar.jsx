@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../../css/resume/progressBar.css';
 
+// container containing the progress bars
 export default function ProgressBar(props){
     
     return (

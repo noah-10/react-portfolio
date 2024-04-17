@@ -1,5 +1,6 @@
 import ProjectContainer from "../components/portfolio/projectContainer"
 
+// Page layout for portfolio
 export default function Portfolio(){
     return(
         <>

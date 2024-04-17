@@ -1,5 +1,6 @@
 import '../../css/aboutme/aboutMeTxt.css';
 
+// Container for the text on about me page
 export default function AboutMeTxt() {
     return (
         <div className="text-container">

@@ -1,5 +1,6 @@
 import ContactForm from "../components/contact/contactForm"
 
+// Page layout for contact
 export default function Contact() {
     return (
         <>

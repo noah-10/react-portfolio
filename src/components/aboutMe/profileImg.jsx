@@ -1,5 +1,6 @@
 import '../../css/aboutme/profileImg.css';
 
+// component for the profile image
 export default function ProfileImg(){
     return (
         <div className="image-container">
